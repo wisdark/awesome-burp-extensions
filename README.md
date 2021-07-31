@@ -317,7 +317,11 @@ request and response processed by Burp.
 * [Secret Finder](https://github.com/m4ll0k/BurpSuite-Secret_Finder) - A Burp Suite extension to help pentesters to discover a apikeys,accesstokens and more sensitive data using a regular expressions. 
 * [Xkeys](https://github.com/vsec7/BurpSuite-Xkeys) - A Burp Suite Extension to extract interesting strings (key, secret, token, or etc.) from a webpage. and lists them as information issues.
 * [SSL Scanner](https://portswigger.net/bappstore/474b3c575a1a4584aa44dfefc70f269d) - This extension enables Burp to scan for SSL vulnerabilities.
-* [Secret Finder (beta v0.1)](https://github.com/m4ll0k/BurpSuite-Secret_Finder) - A Burp Suite extension to help pentesters to discover a apikeys,accesstokens and more sensitive data using a regular expressions.  
+* [Secret Finder (beta v0.1)](https://github.com/m4ll0k/BurpSuite-Secret_Finder) - A Burp Suite extension to help pentesters to discover a apikeys,accesstokens and more sensitive data using a regular expressions. 
+* [HTTP Methods Discloser](https://github.com/xxux11/http-methods-discloser) - This extension makes a OPTIONS request and determines if other HTTP methods than the original request are available.
+
+
+
 
 ### SQL/NoSQL Injection
 * [CO2](https://github.com/JGillam/burp-co2) - A collection of enhancements for Portswigger's popular Burp Suite web penetration testing tool.
@@ -576,3 +580,4 @@ request and response processed by Burp.
 * [Portswigger - The top 10 best pentesting tools and extensions in Burp Suite](https://portswigger.net/testers/penetration-testing-tools)
 * [Burp Suite Webinar for h1-702](https://www.youtube.com/watch?v=IdzmnSVidvU)
 * [Burp Suite 2 Series](https://www.youtube.com/playlist?list=PLZOToVAK85MoBg65au9EeFkK7qwzppcnU)
+* [Hacker101 - Burp Suite Playlist](https://www.hacker101.com/playlists/burp_suite.html)
