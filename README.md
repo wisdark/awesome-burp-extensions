@@ -106,7 +106,8 @@ Awesome burp extensions is an amazing list for people who want to spice up their
 * [Log4Shell scanner for Burp Suite](https://github.com/silentsignal/burp-log4shell) - If you'd like to scan only for Log4j (and not other things such as XSS or SQLi), this plugin makes it possible.
 * [Burp JS Miner](https://github.com/minamo7sen/burp-JS-Miner) - This tool tries to find interesting stuff inside static files; mainly JavaScript and JSON files.
 * [Trishul](https://github.com/gauravnarwani97/Trishul) - Burp Extension written in Jython to hunt for common vulnerabilities found in websites.
-
+* [RouteVulScan](https://github.com/F6JO/RouteVulScan) - Route Vulnerable scanning
+* [Agartha](https://github.com/volkandindar/agartha) - Agartha is a penetration testing tool which creates dynamic payload lists and user access matrix to reveal injection flaws and authentication/authorization issues. 
 
 ## Custom Features
 
@@ -152,7 +153,10 @@ Awesome burp extensions is an amazing list for people who want to spice up their
 * [Reshaper for Burp](https://github.com/synfron/ReshaperForBurp) - Extension for Burp Suite to trigger actions and reshape HTTP request and response traffic using configurable rules
 * [RepeaterClips](https://github.com/0xd0ug/burpExtensions-clipboardRepeater) - The RepeaterClips extension lets you share requests with just two clicks and a paste.
 * [Burp Customizer](https://github.com/CoreyD97/BurpCustomizer) - Because just a dark theme wasn't enough.
-
+* [Copy Regex Matches](https://github.com/honoki/burp-copy-regex-matches) - Copy Regex Matches is a Burp Suite plugin to copy regex matches from selected requests and/or responses to the clipboard.
+* [match-replace-burp](https://github.com/daffainfo/match-replace-burp) - Useful Match and Replace BurpSuite Rules
+* [Backup Finder](https://github.com/moeinfatehi/Backup-Finder) - A burp suite extension that reviews backup, old, temporary, and unreferenced files on the webserver for sensitive information.
+* [Diff Last Response](https://github.com/hackvertor/diffy) - Diff last response will show the difference between the previous and current response.
 
 ## Beautifiers and Decoders
 
@@ -235,6 +239,9 @@ request and response processed by Burp.
 * [AuthHeader Updater](https://github.com/sampsonc/AuthHeaderUpdater) - Burp extension to specify the token value for the Authenication header while scanning.
 * [Dupe Key Injector](https://github.com/pwntester/DupeKeyInjector) - Dupe Key Injetctor is a Burp Suite extension implementing Dupe Key Confusion, a new XML signature bypass technique presented at BSides/BlackHat/DEFCON 2019 "SSO Wars: The Token Menace" presentation.
 * [SAMLReQuest](https://github.com/ernw/burpsuite-extensions/tree/master/SAMLReQuest) - Enables you to view, decode, and modify SAML requests and responses.
+* [OAUTHScan](https://github.com/akabe1/OAUTHScan) - OAUTHScan is a Burp Suite Extension written in Java with the aim to provide some automatic security checks, which could be useful during penetration testing on applications implementing OAUTHv2 and OpenID standards.
+* [JWT Re-auth](https://github.com/nccgroup/jwt-reauth) - Burp plugin to cache authentication tokens from an "auth" URL, and then add them as headers on all requests going to a certain scope.
+
 
 ## Information Gathering
 
@@ -283,6 +290,7 @@ request and response processed by Burp.
 * [Auto Repeater](https://portswigger.net/bappstore/f89f2837c22c4ab4b772f31522647ed8) - This extension automatically repeats requests, with replacement rules and response diffing. It provides a general-purpose solution for streamlining authorization testing within web applications.
 * [IncrementMe Please](https://github.com/alexlauerman/IncrementMePlease) - Burp extension to increment a parameter in each active scan request.
 * [Auth Analyzer](https://github.com/simioni87/auth_analyzer) - This Burp Extension helps you to find authorization bugs by repeating Proxy requests with self defined headers and tokens.
+* [AdminPanelFinder](https://github.com/moeinfatehi/Admin-Panel_Finder) - A burp suite extension that enumerates infrastructure and application Admin Interfaces (OWASP OTG-CONFIG-005)
 
 ### Cross-Site Request Forgery
 * [CSRF Scanner](https://github.com/ah8r/csrf) -  CSRF Scanner Extension for Burp Suite Pro.
@@ -402,6 +410,7 @@ request and response processed by Burp.
 * [BurpSuiteHTTPSmuggler](https://github.com/nccgroup/BurpSuiteHTTPSmuggler) - A Burp Suite extension to help pentesters to bypass WAFs or test their effectiveness using a number of techniques.
 * [Chunked coding converter](https://github.com/c0ny1/chunked-coding-converter) - This entension use a Transfer-Encoding technology to bypass the waf.
 * [403Bypasser](https://github.com/Gilzy/403Bypasser) - A Burp Suite extension made to automate the process of bypassing 403 pages. 
+* [Awesome TLS](https://github.com/sleeyax/burp-awesome-tls) - This extension improves Burp Suite's HTTP/TLS stack and can make it appear like a regular browser to evade layer 4 to 5 WAFs.
 
 ## Logging and Notes
 
@@ -471,6 +480,7 @@ request and response processed by Burp.
 * [TLS-Attacker-BurpExtension](https://github.com/RUB-NDS/TLS-Attacker-BurpExtension) - The extension is based on the TLS-Attacker and developed by the Chair for Network and Data Security from the Ruhr-University Bochum to assist pentesters and security researchers in the evaluation of TLS Server configurations with Burp Suite.
 * [Resign v2.0](https://github.com/bit4woo/ReSign) - A burp extender that recalculate signature value automatically after you modified request parameter value.but you need to know the signature algorithm detail and configure at GUI.
 * [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) - Burpcrypto is a collection of burpsuite encryption plug-ins, supporting AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite).
+* [Padding Oracle Hunter](https://github.com/GovTech-CSG/PaddingOracleHunter) - Padding Oracle Hunter is a Burp Suite extension that helps penetration testers quickly identify and exploit the PKCS#7 and PKCS#1 v1.5 padding oracle vulnerability.
 
 ## Web Services
 
@@ -522,6 +532,7 @@ request and response processed by Burp.
 * [bbrf-burp-plugin](https://github.com/honoki/bbrf-burp-plugin) - Extension for Bug Bounty Reconnaissance Framework
 * [GAT Security Platform Integration](https://github.com/wmspydev/burp-gat-core-integration) - Burp Extension, integration GAT Digital
 * [Nuclei Template Generator Burp Plugin](https://github.com/projectdiscovery/nuclei-burp-plugin) - A BurpSuite plugin intended to help with nuclei template generation.
+
 
 ## Misc
 
